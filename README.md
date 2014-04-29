@@ -85,7 +85,7 @@ It's possible to plot directly using the built-in `scatter` function,
 with help from the [seqclusts2idx](https://github.com/FakenMC/amvidc/blob/master/seqclusts2idx.m) 
 function:
 
-    scatter(S1(:,1), S2(:,2), size(S1_clusters, 1), seqclusts2idx(S1_clusters)
+    scatter(S1(:,1), S1(:,2), size(S1_clusters, 1), seqclusts2idx(S1_clusters))
 
 Another option is to use the [plotClusters](https://github.com/FakenMC/amvidc/blob/master/plotClusters.m) 
 function:
