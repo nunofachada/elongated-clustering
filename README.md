@@ -1,15 +1,17 @@
+# Elongated Clustering Data Sets
+
 ## Summary
 
-The following 2D data sets were produced using the 
-[generateData](https://github.com/FakenMC/generateData) script and used
-for clustering benchmark in the following publication:
+The following 2D data sets were produced using the
+[generateData](https://github.com/nunofachada/generateData) script and used
+for clustering benchmarks in the following publication:
 
--   Fachada, N., Figueiredo, M.A.T., Lopes, V.V., Martins, R.C., Rosa, 
-A.C., [Spectrometric differentiation of yeast strains using minimum volume 
-increase and minimum direction change clustering criteria](http://www.sciencedirect.com/science/article/pii/S0167865514000889),
-Pattern Recognition Letters, vol. 45, pp. 55-61 (2014), doi: http://dx.doi.org/10.1016/j.patrec.2014.03.008
+- Fachada, N., Figueiredo, M.A.T., Lopes, V.V., Martins, R.C., Rosa,
+A.C., [Spectrometric differentiation of yeast strains using minimum volume
+increase and minimum direction change clustering criteria](https://www.sciencedirect.com/science/article/pii/S0167865514000889),
+Pattern Recognition Letters, vol. 45, pp. 55-61 (2014), doi: https://doi.org/10.1016/j.patrec.2014.03.008
 
-If you use these data sets please reference the above paper.
+If you use these data sets in a publication please reference the above paper.
 
 ## Datasets
 
@@ -73,22 +75,6 @@ If you use these data sets please reference the above paper.
 
 ![S6](S6.png "S6 data set")
 
-## Plotting in Octave/Matlab
+## License
 
-The following sequence of commands creates a plot of the S1 data set.
-First, load the data set and the clustering layout:
-
-    load S1.csv
-    load S1_clusters.csv
-
-It's possible to plot directly using the built-in `scatter` function,
-with help from the [seqclusts2idx](https://github.com/FakenMC/amvidc/blob/master/seqclusts2idx.m) 
-function:
-
-    scatter(S1(:,1), S1(:,2), size(S1_clusters, 1), seqclusts2idx(S1_clusters))
-
-Another option is to use the [plotClusters](https://github.com/FakenMC/amvidc/blob/master/plotClusters.m) 
-function:
-
-    plotClusters(S1, 2, S1_clusters)
-
+- [CC BY 4.0](LICENSE.txt)
