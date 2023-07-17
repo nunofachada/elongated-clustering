@@ -17,63 +17,27 @@ If you use these data sets in a publication please reference the above paper.
 
 ### S1
 
-  Parameter            | Value
-  -------------------- | -----
-  *Slope*              | 3
-  *Number of clusters* | 10
-  *Total points*       | 500
-
-![S1](S1.png "S1 data set")
+![S1](s1.svg "S1 data set")
 
 ### S2
 
-  Parameter            | Value
-  -------------------- | -----
-  *Slope*              | 0.01
-  *Number of clusters* | 6
-  *Total points*       | 80
-
-![S2](S2.png "S2 data set")
+![S2](s2.svg "S2 data set")
 
 ### S3
 
-  Parameter            | Value
-  -------------------- | -----
-  *Slope*              | 1
-  *Number of clusters* | 12
-  *Total points*       | 100
-
-![S3](S3.png "S3 data set")
+![S3](s3.svg "S3 data set")
 
 ### S4
 
-  Parameter            | Value
-  -------------------- | -----
-  *Slope*              | 0
-  *Number of clusters* | 8
-  *Total points*       | 200
-
-![S4](S4.png "S4 data set")
+![S4](s4.svg "S4 data set")
 
 ### S5
 
-  Parameter            | Value
-  -------------------- | -----
-  *Slope*              | 0.75
-  *Number of clusters* | 15
-  *Total points*       | 300
-
-![S5](S5.png "S5 data set")
+![S5](s5.svg "S5 data set")
 
 ### S6
 
-  Parameter            | Value
-  -------------------- | -----
-  *Slope*              | -0.25
-  *Number of clusters* | 7
-  *Total points*       | 350
-
-![S6](S6.png "S6 data set")
+![S6](s6.svg "S6 data set")
 
 ## License
 
